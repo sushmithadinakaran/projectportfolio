@@ -17,7 +17,7 @@ def project(request):
         },
         {
             'title':"Student Data Entry",
-            'description':'jjdgjgdhgfh',
+            'description':'Developed a student information entry system,allows users to input student details and dynamically displays them in a structured table without refreshing the page.',
             'used_techs':'Html,Css,js DOM',
             'gitpath':"https://github.com/sushmithadinakaran/projecttutiondom"
         }
