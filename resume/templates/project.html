@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<center><h1 style="color:aliceblue">Project Details:</h1></center>
+<center><table style="color:white" border="2px solid purple">
+
+<tr style="color:rgb(181, 235, 100);font-size:30px;font-family: 'Times New Roman', Times, serif;">
+    <th>Project_Name</th>
+    <th>Used_Apps</th>
+    <th>Description</th>
+    <th>GitHub_Link</th>
+    
+</tr>
+<tbody style="color:white">
+
+    {% for key in projects %}
+    <tr>
+        <td>{{key.title}}</td>
+        <td>{{key.used_techs}}</td>
+        <td>{{key.description}}</td>
+        <td><a href="{{key.title}}" target="_blank" style="color:aqua">github</a></td>
+    </tr>
+
+    {% endfor %}    
+
+    
+</tbody>
+
+
+</table></center>
+
+
+
+
+
+
+{% endblock content %} 

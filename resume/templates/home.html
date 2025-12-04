@@ -1,0 +1,24 @@
+<html>
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<body>
+
+<center><div class="picture">
+    <img id="pic"  src="{% static 'img/sush.jpg'%}">
+</div></center>
+<center><div style="color:white">
+  <h3>Hi,my name is</h3>
+  <h2>R.Sushmitha</h2>
+  <h2>Python full stack developer</h2>
+</div></center>
+<div class="link">
+    <a href="http://www.linkedin.com/in/sushmitha-dinakara-760b03317" target="_blank">
+      <center><img src="{% static 'img/linked.png' %}" style="height:40px;width:40px"></center></a>
+</div>
+{% endblock %}
+
+
+</body>
+</html>

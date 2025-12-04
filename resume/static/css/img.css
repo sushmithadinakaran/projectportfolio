@@ -1,0 +1,65 @@
+.picture #pic{
+    
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    
+
+    
+    
+}  
+.picture #pic:hover{
+    height:250px;
+    width:250px;
+    border-radius: 100%;
+    
+}
+
+
+
+.items{
+    display:flex;
+    list-style: none;
+    gap:30px;
+    justify-content: end;
+}
+/* .items:hover{
+    color:blue;
+
+} */
+    
+   
+
+
+.nav{
+    text-decoration: none;
+    font-size: larger;
+    color:rgb(65, 14, 65);
+}
+.nav:hover{
+    color:rgb(91, 240, 91);
+}
+.nav:focus{
+    color:blue;
+}
+.brand a{
+    font-size:30px;
+    color:aqua;
+    text-decoration: none;
+    
+    
+}
+.container{
+    background-color: rgb(241, 61, 241);
+    height:100px;
+    
+    
+}
+
+
+
+
+
+
+ 
+    

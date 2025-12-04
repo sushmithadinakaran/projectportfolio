@@ -1,0 +1,29 @@
+.detail{
+    color:antiquewhite;
+    text-align: center;
+}
+.pictureabt{
+    height:auto;
+    width:150px;
+    
+}
+.piccontentclass{
+    display:flex;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.contentclass{
+    margin-left: 100px;
+}
+.para{
+    text-align:justify;
+    font-size: x-large;
+
+}
+
+
+
+
+
+ 
+    

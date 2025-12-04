@@ -1,0 +1,46 @@
+<html>
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+
+
+<body>
+    <div class="piccontentclass">
+        <div class="pictureclass">
+        <img class="pictureabt" src="{% static 'img/sush.jpg' %}" >
+        </div>
+        
+    
+        <div style="color:white"class="contentclass">
+            <h2>Hello!</h2>
+            <p class="para">
+                I am a full-stack developer have knowledge in Python
+                and Django for backend development,and HTML,CSS,Javascript
+                for creating interactive and responsive front-end interfaces.
+                I am a fresher and i am eager to contribute myskill to challenging projects 
+                and grow as a developer.
+            </p>
+        </div>
+    </div>
+    <div class="row2">
+        <h2 style="color:rgb(115, 241, 115);text-align: center;" class="mytec">My Tech Stack</h2>
+
+    </div>
+    <center><div class="row2img">
+        <img style="height:70px;width:70px"src="{% static 'img/html.png' %}">
+        <img style="height:70px;width:70px"src="{% static 'img/css.png' %}">
+        <img style="height:70px;width:70px"src="{% static 'img/js.jpg' %}">
+        <img style="height:70px;width:70px"src="{% static 'img/react.png' %}">
+        <img style="height:70px;width:70px"src="{% static 'img/Python.jpg' %}">
+        <img style="height:70px;width:70px"src="{% static 'img/django.png' %}">
+    </div></center>
+    
+    
+    
+
+</body>
+
+{% endblock content %}
+</html>

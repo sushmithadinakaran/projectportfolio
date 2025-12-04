@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  <meta charset="UTF-8">
+3  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ {% load static %}
+  
+  <link rel="stylesheet" href="{% static 'css/img.css' %}">
+  
+
+</head>
+<body bgcolor="black">
+
+<div class="container">
+  
+
+   
+
+    <ul class="all">
+      <div class="brand">
+           <a  href="/resume">R.Sushmitha</a> 
+      </div>
+       <div class="items" >
+          <li ><a class="nav " href="/home">Home</a></li>
+          <li ><a class="nav " href="/about">About</a></li>
+          <li ><a class="nav" href="/project">projects</a></li>
+          <li ><a class="nav " href="/contact">Contact</a></li>
+          <li ><a class="nav " href="/certification">Certification</a></li>
+          <li ><a class="nav " href="/resume">Resume</a></li>
+       </div>
+    </ul>
+    
+
+  </div>
+  {% block content %}
+  {% endblock %}
+</body>
