@@ -7,7 +7,14 @@ def home(request):
 def about(request):
     return render(request,"about.html")
 def project(request):
-    projects=[
+    projects=[{'title':'Work Portfolio',
+               'description':'My Portfolio showcases the project i"ve built using Python,Django,JavaScript,and modern web technologies.Each projects reflects my skills in backend development,frontend design,and problem-solving.I enjoy creating clean,functional, and user-friendly applications that solve real-world problems.',
+               'used_techs':'HTML,Css,Bootstrap,Python,Django,Django ORM,SQLite,Git & Github,Vscode',
+               'gitpath':'https://github.com/sushmithadinakaran/projectportfolio'},
+        {'title':"Student Management Based On CRUD",
+               'description':'The Student Management System is a simple CRUD-based web application designed to manage student records efficiently.It allows users (admin/teachers) to create read,update and delete student information through a clean and user friendly interface.This project demonstrates core backend development concepts using Djangoo and implements proper structuring',
+               'used_techs':'Django Framework,Html,Css,Bootstrap(awesomeicons,modal),django ORM for database interactions,MVT architecture',
+               'gitpath':'https://github.com/sushmithadinakaran/projectstudent'},
         {
          'title':"Patient Appointment Schedular",
          'description':'This project helps hospital staff handle patient apponitments with features like adding new apponitments and removing them instantly using JavaScript DOM.',        
